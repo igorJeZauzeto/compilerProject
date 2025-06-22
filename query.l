@@ -62,11 +62,3 @@
 int yywrap() {
     return 1;
 }
-
-int main() {
-    int token;
-    while ((token = yylex())) {
-        printf("Token: %d (%s)\n", token, yytext);
-    }
-    return 0;
-}

@@ -39,36 +39,36 @@
    /* Put the tokens into the symbol table, so that GDB and other debuggers
       know about them.  */
    enum yytokentype {
-     QUERY_T = 258,
-     EXEC_T = 259,
-     IF_T = 260,
-     BEGIN_T = 261,
-     END_T = 262,
-     FOR_T = 263,
-     IN_T = 264,
-     RES_T = 265,
-     EMPTY_T = 266,
-     URL_T = 267,
-     NOT_EMPTY_T = 268,
-     PLUSPLUS_T = 269,
-     MINUSMINUS_T = 270,
-     STARSTAR_T = 271,
-     PLUS_T = 272,
-     MINUS_T = 273,
-     STAR_T = 274,
-     PIPE_T = 275,
-     EQ_T = 276,
-     COLON_T = 277,
-     SEMI_T = 278,
-     COMMA_T = 279,
-     LT_T = 280,
-     GT_T = 281,
-     LBRACK_T = 282,
-     RBRACK_T = 283,
-     LPAREN_T = 284,
-     RPAREN_T = 285,
-     STRING_T = 286,
-     WORD_T = 287
+     PIPE_T = 258,
+     STAR_T = 259,
+     MINUS_T = 260,
+     PLUS_T = 261,
+     STRING_T = 262,
+     WORD_T = 263,
+     QUERY_T = 264,
+     EXEC_T = 265,
+     IF_T = 266,
+     BEGIN_T = 267,
+     END_T = 268,
+     FOR_T = 269,
+     IN_T = 270,
+     RES_T = 271,
+     EMPTY_T = 272,
+     URL_T = 273,
+     NOT_EMPTY_T = 274,
+     PLUSPLUS_T = 275,
+     MINUSMINUS_T = 276,
+     STARSTAR_T = 277,
+     EQ_T = 278,
+     COLON_T = 279,
+     SEMI_T = 280,
+     COMMA_T = 281,
+     LT_T = 282,
+     GT_T = 283,
+     LBRACK_T = 284,
+     RBRACK_T = 285,
+     LPAREN_T = 286,
+     RPAREN_T = 287
    };
 #endif
 
@@ -79,7 +79,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 14 "query.y"
+#line 10 "query.y"
 
     char* str;
 
