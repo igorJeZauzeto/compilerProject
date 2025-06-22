@@ -1,0 +1,8 @@
+QUERY basic = < apple banana | orange >;
+QUERY advanced = <filetype:pdf apple +fruit -tree >;
+RESULT_OF_QUERY temp;
+RESULT_OF_QUERY res;
+FOR item IN [basic, advanced] BEGIN
+temp = EXEC item;
+res = res ++ item;
+END
