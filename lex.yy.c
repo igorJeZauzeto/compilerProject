@@ -426,11 +426,11 @@ char *yytext;
 #line 1 "query.l"
 #define INITIAL 0
 #line 2 "query.l"
-    #include <stdlib.h>
-    #include <stdio.h>
-    #include <string.h>
-    #define strdup _strdup
-    #include "query.tab.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#define strdup _strdup
+#include "query.tab.h"
 #line 435 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
@@ -827,7 +827,7 @@ YY_RULE_SETUP
 case 31:
 YY_RULE_SETUP
 #line 53 "query.l"
-{ /* ignoriši */ }
+{ /* ignore whitespace */ }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP

@@ -1,9 +1,9 @@
 %{
-    #include <stdlib.h>
-    #include <stdio.h>
-    #include <string.h>
-    #define strdup _strdup
-    #include "query.tab.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#define strdup _strdup
+#include "query.tab.h"
 %}
 
 %%
@@ -50,7 +50,7 @@
     return WORD_T;
 }
 
-[ \t\r\n]+         { /* ignoriši */ }
+[ \t\r\n]+         { /* ignore whitespace */ }
 
 . {
     fprintf(stderr, "Unknown token: %s\n", yytext);
