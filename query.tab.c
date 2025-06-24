@@ -402,7 +402,7 @@ union yyalloc
 /* YYNNTS -- Number of nonterminals.  */
 #define YYNNTS  16
 /* YYNRULES -- Number of rules.  */
-#define YYNRULES  41
+#define YYNRULES  40
 /* YYNRULES -- Number of states.  */
 #define YYNSTATES  93
 
@@ -452,41 +452,41 @@ static const yytype_uint8 yytranslate[] =
    YYRHS.  */
 static const yytype_uint8 yyprhs[] =
 {
-       0,     0,     3,     6,     8,    11,    13,    19,    25,    29,
-      32,    34,    38,    44,    52,    55,    60,    66,    71,    76,
-      83,    87,    91,    97,   101,   105,   107,   110,   112,   114,
-     116,   118,   121,   125,   129,   133,   137,   139,   141,   143,
-     145,   147
+       0,     0,     3,     6,     9,    11,    17,    23,    27,    30,
+      32,    36,    42,    50,    53,    58,    64,    69,    74,    81,
+      85,    89,    95,    99,   103,   105,   108,   110,   112,   114,
+     116,   119,   123,   127,   131,   135,   137,   139,   141,   143,
+     145
 };
 
 /* YYRHS -- A `-1'-separated list of the rules' RHS.  */
 static const yytype_int8 yyrhs[] =
 {
-      34,     0,    -1,    35,    37,    -1,    35,    -1,    35,    36,
-      -1,    36,    -1,     5,     4,    23,    41,    25,    -1,     5,
-       4,    23,    42,    25,    -1,    12,     4,    25,    -1,    37,
-      38,    -1,    38,    -1,     6,     4,    25,    -1,     7,    40,
-       8,    37,     9,    -1,    10,     4,    11,    42,     8,    37,
-       9,    -1,    39,    25,    -1,     4,    23,     6,     4,    -1,
-       4,    23,     4,    48,     4,    -1,    13,    31,     4,    32,
-      -1,    15,    31,     4,    32,    -1,    14,    31,     4,    26,
-       3,    32,    -1,    27,    44,    28,    -1,    29,    43,    30,
-      -1,    43,    26,    27,    44,    28,    -1,    43,    26,     4,
-      -1,    27,    44,    28,    -1,     4,    -1,    44,    45,    -1,
-      45,    -1,     4,    -1,     3,    -1,    46,    -1,    47,    45,
-      -1,    45,    22,    45,    -1,    31,    45,    32,    -1,     4,
-      24,     4,    -1,     4,    24,     3,    -1,    19,    -1,    20,
-      -1,    21,    -1,    16,    -1,    17,    -1,    18,    -1
+      34,     0,    -1,    35,    37,    -1,    35,    36,    -1,    36,
+      -1,     5,     4,    23,    41,    25,    -1,     5,     4,    23,
+      42,    25,    -1,    12,     4,    25,    -1,    37,    38,    -1,
+      38,    -1,     6,     4,    25,    -1,     7,    40,     8,    37,
+       9,    -1,    10,     4,    11,    42,     8,    37,     9,    -1,
+      39,    25,    -1,     4,    23,     6,     4,    -1,     4,    23,
+       4,    48,     4,    -1,    13,    31,     4,    32,    -1,    15,
+      31,     4,    32,    -1,    14,    31,     4,    26,     3,    32,
+      -1,    27,    44,    28,    -1,    29,    43,    30,    -1,    43,
+      26,    27,    44,    28,    -1,    43,    26,     4,    -1,    27,
+      44,    28,    -1,     4,    -1,    44,    45,    -1,    45,    -1,
+       4,    -1,     3,    -1,    46,    -1,    47,    45,    -1,    45,
+      22,    45,    -1,    31,    45,    32,    -1,     4,    24,     4,
+      -1,     4,    24,     3,    -1,    19,    -1,    20,    -1,    21,
+      -1,    16,    -1,    17,    -1,    18,    -1
 };
 
 /* YYRLINE[YYN] -- source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    38,    38,    39,    43,    44,    48,    49,    50,    54,
-      55,    59,    60,    61,    62,    66,    67,    71,    72,    73,
-      77,    81,    85,    86,    87,    88,    92,    93,    97,    98,
-      99,   100,   101,   102,   106,   107,   111,   112,   113,   117,
-     118,   119
+       0,    38,    38,    42,    43,    47,    48,    49,    53,    54,
+      58,    59,    60,    61,    65,    66,    70,    71,    72,    76,
+      80,    84,    85,    86,    87,    91,    92,    96,    97,    98,
+      99,   100,   101,   105,   106,   110,   111,   112,   116,   117,
+     118
 };
 #endif
 
@@ -522,21 +522,21 @@ static const yytype_uint16 yytoknum[] =
 /* YYR1[YYN] -- Symbol number of symbol that rule YYN derives.  */
 static const yytype_uint8 yyr1[] =
 {
-       0,    33,    34,    34,    35,    35,    36,    36,    36,    37,
-      37,    38,    38,    38,    38,    39,    39,    40,    40,    40,
-      41,    42,    43,    43,    43,    43,    44,    44,    45,    45,
-      45,    45,    45,    45,    46,    46,    47,    47,    47,    48,
-      48,    48
+       0,    33,    34,    35,    35,    36,    36,    36,    37,    37,
+      38,    38,    38,    38,    39,    39,    40,    40,    40,    41,
+      42,    43,    43,    43,    43,    44,    44,    45,    45,    45,
+      45,    45,    45,    46,    46,    47,    47,    47,    48,    48,
+      48
 };
 
 /* YYR2[YYN] -- Number of symbols composing right hand side of rule YYN.  */
 static const yytype_uint8 yyr2[] =
 {
-       0,     2,     2,     1,     2,     1,     5,     5,     3,     2,
-       1,     3,     5,     7,     2,     4,     5,     4,     4,     6,
-       3,     3,     5,     3,     3,     1,     2,     1,     1,     1,
-       1,     2,     3,     3,     3,     3,     1,     1,     1,     1,
-       1,     1
+       0,     2,     2,     2,     1,     5,     5,     3,     2,     1,
+       3,     5,     7,     2,     4,     5,     4,     4,     6,     3,
+       3,     5,     3,     3,     1,     2,     1,     1,     1,     1,
+       2,     3,     3,     3,     3,     1,     1,     1,     1,     1,
+       1
 };
 
 /* YYDEFACT[STATE-NAME] -- Default rule to reduce with in state
@@ -544,16 +544,16 @@ static const yytype_uint8 yyr2[] =
    means the default is an error.  */
 static const yytype_uint8 yydefact[] =
 {
-       0,     0,     0,     0,     3,     5,     0,     0,     1,     0,
-       0,     0,     0,     4,     2,    10,     0,     0,     8,     0,
-       0,     0,     0,     0,     0,     0,     9,    14,     0,     0,
-       0,     0,     0,     0,    11,     0,     0,     0,     0,     0,
-      29,    28,    36,    37,    38,     0,     0,    27,    30,     0,
-      25,     0,     0,     6,     7,    39,    40,    41,     0,    15,
-       0,     0,     0,     0,     0,     0,     0,    20,    26,     0,
-      31,     0,     0,    21,    16,    17,     0,    18,    12,     0,
-      35,    34,    33,    32,    24,    23,     0,     0,     0,     0,
-      19,    13,    22
+       0,     0,     0,     0,     0,     4,     0,     0,     1,     0,
+       0,     0,     0,     3,     2,     9,     0,     0,     7,     0,
+       0,     0,     0,     0,     0,     0,     8,    13,     0,     0,
+       0,     0,     0,     0,    10,     0,     0,     0,     0,     0,
+      28,    27,    35,    36,    37,     0,     0,    26,    29,     0,
+      24,     0,     0,     5,     6,    38,    39,    40,     0,    14,
+       0,     0,     0,     0,     0,     0,     0,    19,    25,     0,
+      30,     0,     0,    20,    15,    16,     0,    17,    11,     0,
+      34,    33,    32,    31,    23,    22,     0,     0,     0,     0,
+      18,    12,    21
 };
 
 /* YYDEFGOTO[NTERM-NUM].  */
@@ -1460,218 +1460,218 @@ yyreduce:
   case 3:
 
 /* Line 1455 of yacc.c  */
-#line 39 "query.y"
-    { (yyval.node) = make_program_node((yyvsp[(1) - (1)].node), NULL); root = (yyval.node);;}
+#line 42 "query.y"
+    { (yyval.node) = append_declaration((yyvsp[(1) - (2)].node), (yyvsp[(2) - (2)].node)); ;}
     break;
 
   case 4:
 
 /* Line 1455 of yacc.c  */
 #line 43 "query.y"
-    { (yyval.node) = append_declaration((yyvsp[(1) - (2)].node), (yyvsp[(2) - (2)].node)); ;}
+    { (yyval.node) = make_declaration_list((yyvsp[(1) - (1)].node)); ;}
     break;
 
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 44 "query.y"
-    { (yyval.node) = make_declaration_list((yyvsp[(1) - (1)].node)); ;}
+#line 47 "query.y"
+    { (yyval.node) = make_query_declaration((yyvsp[(2) - (5)].str), (yyvsp[(4) - (5)].node)); ;}
     break;
 
   case 6:
 
 /* Line 1455 of yacc.c  */
 #line 48 "query.y"
-    { (yyval.node) = make_query_declaration((yyvsp[(2) - (5)].str), (yyvsp[(4) - (5)].node)); ;}
+    { (yyval.node) = make_query_list_declaration((yyvsp[(2) - (5)].str), (yyvsp[(4) - (5)].node)); ;}
     break;
 
   case 7:
 
 /* Line 1455 of yacc.c  */
 #line 49 "query.y"
-    { (yyval.node) = make_query_list_declaration((yyvsp[(2) - (5)].str), (yyvsp[(4) - (5)].node)); ;}
+    { (yyval.node) = make_result_declaration((yyvsp[(2) - (3)].str)); ;}
     break;
 
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 50 "query.y"
-    { (yyval.node) = make_result_declaration((yyvsp[(2) - (3)].str)); ;}
+#line 53 "query.y"
+    { (yyval.node) = append_command((yyvsp[(1) - (2)].node), (yyvsp[(2) - (2)].node)); ;}
     break;
 
   case 9:
 
 /* Line 1455 of yacc.c  */
 #line 54 "query.y"
-    { (yyval.node) = append_command((yyvsp[(1) - (2)].node), (yyvsp[(2) - (2)].node)); ;}
+    { (yyval.node) = make_command_list((yyvsp[(1) - (1)].node)); ;}
     break;
 
   case 10:
 
 /* Line 1455 of yacc.c  */
-#line 55 "query.y"
-    { (yyval.node) = make_command_list((yyvsp[(1) - (1)].node)); ;}
+#line 58 "query.y"
+    { (yyval.node) = make_exec_command((yyvsp[(2) - (3)].str)); ;}
     break;
 
   case 11:
 
 /* Line 1455 of yacc.c  */
 #line 59 "query.y"
-    { (yyval.node) = make_exec_command((yyvsp[(2) - (3)].str)); ;}
+    { (yyval.node) = make_if_command((yyvsp[(2) - (5)].node), (yyvsp[(4) - (5)].node)); ;}
     break;
 
   case 12:
 
 /* Line 1455 of yacc.c  */
 #line 60 "query.y"
-    { (yyval.node) = make_if_command((yyvsp[(2) - (5)].node), (yyvsp[(4) - (5)].node)); ;}
+    { (yyval.node) = make_for_command((yyvsp[(2) - (7)].str), (yyvsp[(4) - (7)].node), (yyvsp[(6) - (7)].node)); ;}
     break;
 
   case 13:
 
 /* Line 1455 of yacc.c  */
 #line 61 "query.y"
-    { (yyval.node) = make_for_command((yyvsp[(2) - (7)].str), (yyvsp[(4) - (7)].node), (yyvsp[(6) - (7)].node)); ;}
+    { (yyval.node) = (yyvsp[(1) - (2)].node); ;}
     break;
 
   case 14:
 
 /* Line 1455 of yacc.c  */
-#line 62 "query.y"
-    { (yyval.node) = (yyvsp[(1) - (2)].node); ;}
+#line 65 "query.y"
+    { (yyval.node) = make_exec_assign_command((yyvsp[(1) - (4)].str), (yyvsp[(4) - (4)].str)); ;}
     break;
 
   case 15:
 
 /* Line 1455 of yacc.c  */
 #line 66 "query.y"
-    { (yyval.node) = make_exec_assign_command((yyvsp[(1) - (4)].str), (yyvsp[(4) - (4)].str)); ;}
+    { (yyval.node) = make_set_op_assign_command((yyvsp[(1) - (5)].str), (yyvsp[(3) - (5)].str), (yyvsp[(4) - (5)].op), (yyvsp[(5) - (5)].str)); ;}
     break;
 
   case 16:
 
 /* Line 1455 of yacc.c  */
-#line 67 "query.y"
-    { (yyval.node) = make_set_op_assign_command((yyvsp[(1) - (5)].str), (yyvsp[(3) - (5)].str), (yyvsp[(4) - (5)].op), (yyvsp[(5) - (5)].str)); ;}
+#line 70 "query.y"
+    { (yyval.node) = make_condition_node("EMPTY", (yyvsp[(3) - (4)].str), NULL); ;}
     break;
 
   case 17:
 
 /* Line 1455 of yacc.c  */
 #line 71 "query.y"
-    { (yyval.node) = make_condition_node("EMPTY", (yyvsp[(3) - (4)].str), NULL); ;}
+    { (yyval.node) = make_condition_node("NOT_EMPTY", (yyvsp[(3) - (4)].str), NULL); ;}
     break;
 
   case 18:
 
 /* Line 1455 of yacc.c  */
 #line 72 "query.y"
-    { (yyval.node) = make_condition_node("NOT_EMPTY", (yyvsp[(3) - (4)].str), NULL); ;}
+    { (yyval.node) = make_condition_node("URL_EXISTS", (yyvsp[(3) - (6)].str), (yyvsp[(5) - (6)].str)); ;}
     break;
 
   case 19:
 
 /* Line 1455 of yacc.c  */
-#line 73 "query.y"
-    { (yyval.node) = make_condition_node("URL_EXISTS", (yyvsp[(3) - (6)].str), (yyvsp[(5) - (6)].str)); ;}
+#line 76 "query.y"
+    { (yyval.node) = make_query_node((yyvsp[(2) - (3)].node)); ;}
     break;
 
   case 20:
 
 /* Line 1455 of yacc.c  */
-#line 77 "query.y"
-    { (yyval.node) = make_query_node((yyvsp[(2) - (3)].node)); ;}
+#line 80 "query.y"
+    { (yyval.node) = (yyvsp[(2) - (3)].node); ;}
     break;
 
   case 21:
 
 /* Line 1455 of yacc.c  */
-#line 81 "query.y"
-    { (yyval.node) = (yyvsp[(2) - (3)].node); ;}
+#line 84 "query.y"
+    { (yyval.node) = append_query((yyvsp[(1) - (5)].node), make_query_node((yyvsp[(4) - (5)].node))); ;}
     break;
 
   case 22:
 
 /* Line 1455 of yacc.c  */
 #line 85 "query.y"
-    { (yyval.node) = append_query((yyvsp[(1) - (5)].node), make_query_node((yyvsp[(4) - (5)].node))); ;}
+    { (yyval.node) = append_query((yyvsp[(1) - (3)].node), make_word_node((yyvsp[(3) - (3)].str))); ;}
     break;
 
   case 23:
 
 /* Line 1455 of yacc.c  */
 #line 86 "query.y"
-    { (yyval.node) = append_query((yyvsp[(1) - (3)].node), make_word_node((yyvsp[(3) - (3)].str))); ;}
+    { (yyval.node) = make_query_list(make_query_node((yyvsp[(2) - (3)].node)), NULL); ;}
     break;
 
   case 24:
 
 /* Line 1455 of yacc.c  */
 #line 87 "query.y"
-    { (yyval.node) = make_query_list(make_query_node((yyvsp[(2) - (3)].node)), NULL); ;}
+    { (yyval.node) = make_query_list(make_word_node((yyvsp[(1) - (1)].str)), NULL); ;}
     break;
 
   case 25:
 
 /* Line 1455 of yacc.c  */
-#line 88 "query.y"
-    { (yyval.node) = make_query_list(make_word_node((yyvsp[(1) - (1)].str)), NULL); ;}
+#line 91 "query.y"
+    { (yyval.node) = append_term((yyvsp[(1) - (2)].node), (yyvsp[(2) - (2)].node)); ;}
     break;
 
   case 26:
 
 /* Line 1455 of yacc.c  */
 #line 92 "query.y"
-    { (yyval.node) = append_term((yyvsp[(1) - (2)].node), (yyvsp[(2) - (2)].node)); ;}
+    { (yyval.node) = make_term_list((yyvsp[(1) - (1)].node)); ;}
     break;
 
   case 27:
 
 /* Line 1455 of yacc.c  */
-#line 93 "query.y"
-    { (yyval.node) = make_term_list((yyvsp[(1) - (1)].node)); ;}
+#line 96 "query.y"
+    { (yyval.node) = make_word_node((yyvsp[(1) - (1)].str)); ;}
     break;
 
   case 28:
 
 /* Line 1455 of yacc.c  */
 #line 97 "query.y"
-    { (yyval.node) = make_word_node((yyvsp[(1) - (1)].str)); ;}
+    { (yyval.node) = make_string_node((yyvsp[(1) - (1)].str)); ;}
     break;
 
   case 29:
 
 /* Line 1455 of yacc.c  */
 #line 98 "query.y"
-    { (yyval.node) = make_string_node((yyvsp[(1) - (1)].str)); ;}
+    { (yyval.node) = (yyvsp[(1) - (1)].node); ;}
     break;
 
   case 30:
 
 /* Line 1455 of yacc.c  */
 #line 99 "query.y"
-    { (yyval.node) = (yyvsp[(1) - (1)].node); ;}
+    { (yyval.node) = make_unary_term((yyvsp[(1) - (2)].op), (yyvsp[(2) - (2)].node)); ;}
     break;
 
   case 31:
 
 /* Line 1455 of yacc.c  */
 #line 100 "query.y"
-    { (yyval.node) = make_unary_term((yyvsp[(1) - (2)].op), (yyvsp[(2) - (2)].node)); ;}
+    { (yyval.node) = make_binary_term(AST_OP_PIPE, (yyvsp[(1) - (3)].node), (yyvsp[(3) - (3)].node)); ;}
     break;
 
   case 32:
 
 /* Line 1455 of yacc.c  */
 #line 101 "query.y"
-    { (yyval.node) = make_binary_term(AST_OP_PIPE, (yyvsp[(1) - (3)].node), (yyvsp[(3) - (3)].node)); ;}
+    { (yyval.node) = (yyvsp[(2) - (3)].node); ;}
     break;
 
   case 33:
 
 /* Line 1455 of yacc.c  */
-#line 102 "query.y"
-    { (yyval.node) = (yyvsp[(2) - (3)].node); ;}
+#line 105 "query.y"
+    { (yyval.node) = make_directive_node((yyvsp[(1) - (3)].str), (yyvsp[(3) - (3)].str)); ;}
     break;
 
   case 34:
@@ -1684,56 +1684,49 @@ yyreduce:
   case 35:
 
 /* Line 1455 of yacc.c  */
-#line 107 "query.y"
-    { (yyval.node) = make_directive_node((yyvsp[(1) - (3)].str), (yyvsp[(3) - (3)].str)); ;}
+#line 110 "query.y"
+    { (yyval.op) = AST_OP_PLUS; ;}
     break;
 
   case 36:
 
 /* Line 1455 of yacc.c  */
 #line 111 "query.y"
-    { (yyval.op) = AST_OP_PLUS; ;}
+    { (yyval.op) = AST_OP_MINUS; ;}
     break;
 
   case 37:
 
 /* Line 1455 of yacc.c  */
 #line 112 "query.y"
-    { (yyval.op) = AST_OP_MINUS; ;}
+    { (yyval.op) = AST_OP_STAR; ;}
     break;
 
   case 38:
 
 /* Line 1455 of yacc.c  */
-#line 113 "query.y"
-    { (yyval.op) = AST_OP_STAR; ;}
+#line 116 "query.y"
+    { (yyval.op) = AST_OP_PLUS; ;}
     break;
 
   case 39:
 
 /* Line 1455 of yacc.c  */
 #line 117 "query.y"
-    { (yyval.op) = AST_OP_PLUS; ;}
+    { (yyval.op) = AST_OP_MINUS; ;}
     break;
 
   case 40:
 
 /* Line 1455 of yacc.c  */
 #line 118 "query.y"
-    { (yyval.op) = AST_OP_MINUS; ;}
-    break;
-
-  case 41:
-
-/* Line 1455 of yacc.c  */
-#line 119 "query.y"
     { (yyval.op) = AST_OP_STAR; ;}
     break;
 
 
 
 /* Line 1455 of yacc.c  */
-#line 1737 "query.tab.c"
+#line 1730 "query.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1945,7 +1938,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 122 "query.y"
+#line 121 "query.y"
 
 
 void yyerror(const char* s) {

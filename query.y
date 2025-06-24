@@ -36,7 +36,6 @@
 
 program:
       declarations commands { $$ = make_program_node($1, $2); root = $$;}
-    | declarations           { $$ = make_program_node($1, NULL); root = $$;}
     ;
 
 declarations:
