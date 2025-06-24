@@ -61,8 +61,6 @@ ASTNode* append_node(ASTNode* list, ASTNode* item) {
     return list;
 }
 
-// === NEW FUNCTIONS ===
-
 ASTNode* make_program_node(ASTNode* decls, ASTNode* cmds) {
     ASTNode* node = make_node(AST_PROGRAM);
     node->left = decls;
